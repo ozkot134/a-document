@@ -3,9 +3,177 @@ body {
   background: lightgray;
 }
 
-h2 {
-  break-before: page;
+#cover img {
+  width: 100%;
 }
+
+#cover img.pictures {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+
+}
+
+#cover img.title {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+
+}
+
+#page1 img {
+  width: 100%;
+}
+
+.page1text {
+  width: 177px;
+  font-size: 10px;  
+  text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-family: "eskorte-arabic", serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 120%;color: red;
+}
+
+#page2 img {
+  width: 100%;
+}
+
+#page2 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page3 img {
+  width: 100%;
+}
+
+#page3 img.overlay {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+#page4 img {
+  width: 100%;
+}
+
+
+#page5 img {
+  width: 100%;
+}
+
+.page5text {
+  width: 270px;
+  font-size: 18px;  
+  text-align: left;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    font-family: 'Patrick Hand SC', cursive;
+    line-height: 100%;
+    color: #0CB7CF;
+}
+
+#page6 img {
+  width: 100%;
+}
+
+#page6 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page7 img {
+  width: 100%;
+}
+
+#page7 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page8 img {
+  width: 100%;
+}
+
+#page8 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page9 img {
+  width: 100%;
+}
+
+#page9 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page10 img {
+  width: 100%;
+}
+
+#page10 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+
+#page11 img {
+  width: 100%;
+}
+
+#page11 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page12 img {
+  width: 100%;
+}
+
+#page12 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page13 img {
+  width: 100%;
+}
+
+#page13 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page14 img {
+  width: 100%;
+}
+
+#page14 img.overlay {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+#page15 img {
+  width: 100%;
+}
+
 
 @media print {
   body {
@@ -13,16 +181,9 @@ h2 {
   }
 }
 
+
 @page {
   size: 5in 8in;
-  margin-top: 0.25in;
-  margin-bottom: 0.5in;
-}
-@page:left {
-  margin-left: 0.25in;
-  margin-right: 1in;
-}
-@page:right {
-  margin-left: 1in;
-  margin-right: 0.25in;
+  margin: 0in;
+  marks: crop;
 }
